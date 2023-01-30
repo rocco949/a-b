@@ -10,6 +10,8 @@ public class Add {
 		System.out.println("Enter a second number: ");
 		int y = sc_obj.nextInt();
 
+		System.out.println("This program will add " + x +
+			" and " + y + ".");
 		System.out.println(add(x, y));
 	}
 
